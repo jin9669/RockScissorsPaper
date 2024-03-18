@@ -25,7 +25,9 @@ function getComputerChoice() {
     return playerSelection;
 }
 
-    function gameOne() {
+    //Game One code//
+
+    function oneGame() {
         let computerSelection = getComputerChoice();
         let playerSelection = getPlayerChoice();
 
@@ -57,3 +59,11 @@ function getComputerChoice() {
         
         }
         
+    
+        function playGame() {
+            oneGame();
+            oneGame();
+            oneGame();
+            oneGame();
+            oneGame();
+        }
